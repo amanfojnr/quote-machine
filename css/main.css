@@ -1,0 +1,22 @@
+/* adhoc css code */
+
+body {
+  background-color: #f4f4f4;
+}
+
+.quote-box {
+  background-color: #64b2fa;
+  color: #f4f4f4;
+  max-width: 50%;
+  margin: 50px;
+  padding: 25px;
+}
+
+#quote {
+  font-size: 1.2em;
+  font-style: oblique;
+}
+
+#author {
+  font-weight: bolder;
+}
