@@ -15,14 +15,14 @@ $("#generate").on("click", function() {
   var author = $("#author"); // load author element
 
 // get json object using storm quote api
-$.getJSON("https://quotes.stormconsultancy.co.uk/random.json",
+$.getJSON("http://quotes.stormconsultancy.co.uk/random.json",
   function(json){
     // change quote and author to new quote from api
     quote.text(json.quote);
     author.text(json.author);
 
     // replace pretweet url with new url
-    var tweetLink = "https://twitter.com/intent/tweet?text="
+    var tweetLink = "http://twitter.com/intent/tweet?text="
      $("#tweet").attr("href", generateTweet(tweetLink, json.quote, json.author));
   });
 });
