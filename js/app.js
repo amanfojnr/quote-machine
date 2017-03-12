@@ -15,7 +15,7 @@ $("#generate").on("click", function() {
   var author = $("#author"); // load author element
 
 // get json object using storm quote api
-$.getJSON("http://quotes.stormconsultancy.co.uk/random.json",
+$.getJSON("https://quotes.stormconsultancy.co.uk/random.json",
   function(json){
     // change quote and author to new quote from api
     quote.text(json.quote);
