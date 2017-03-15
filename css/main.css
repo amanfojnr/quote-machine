@@ -1,22 +1,26 @@
-/* adhoc css code */
 
 body {
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
 
-.quote-box {
-  background-color: #64b2fa;
-  color: #f4f4f4;
-  max-width: 50%;
-  margin: 50px;
-  padding: 25px;
+h1 {
+  font-weight: 300;
 }
 
-#quote {
-  font-size: 1.2em;
-  font-style: oblique;
+.btn {
+  font-weight: 300;
 }
 
-#author {
-  font-weight: bolder;
+
+/* for mobile */
+@media query {
+
+}
+
+
+/* for desktop and tablets */
+@media query {
+
 }
