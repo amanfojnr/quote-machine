@@ -4,36 +4,38 @@
 <head>
   <meta charset="utf-8">
   <title>amanfojnr quote-machine</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
-  <!-- displays info about the machine -->
-  <aside class="machine-head">
-    <h1>Random Quote Machine</h1>
-    <img src="" alt="">
-    <p>made by amanfojnr</p>
-  </aside>
 
-  <!-- space of quotes and stuff -->
-  <section class="machine-box">
-    <section class="quote-box">
-      <p id="quote">Because the world is ... , ha !
-         That's my quote. Generate a random quote using
-        the quote button.</p>
-      <p id="author">amanfojnr</p>
-    </section>
+  <div role="main" class="parent-box">
+      <!-- displays info about the machine -->
+    <aside class="kid-box header-box">
+      <h1>Random Quote Machine</h1>
+      <img src="https://s25.postimg.org/k6cs8h49b/chair_with_books.jpg" alt="chair with books">
+      <p>
+        made by  <i class="fa fa-user-circle-o" aria-hidden="true"> </i> amanfojnr</p>
+    </aside>
 
-    <button class="btn" type="button" id="generate">quote</button>
-    <a id="tweet"  target="_blank">
-      <button class="btn" type="button" id="tweet">tweet</button></a>
+    <!-- space for quote and stuff -->
+    <section class="kid-box content-box">
+      <section class="quote-box">
+        <p id="quote">Because the world is ... , ha !
+           That's my quote. Generate a random quote using
+          the quote button. yh yh yep ;)</p>
+        <p id="author">-amanfojnr</p>
+        <div class="btn-group">
+          <button type="button" class="btn" id="generate">quote</button>
+          <a id="tweet" href="test"  target="_blank">
+            <button type="button" class="btn"  id="tweet">tweet</button></a>
+          </div>
+        </section>
 
   </section>
-
-
-
-
-
+  </div>
 
 
   <!-- load jquery framework and app.js -->

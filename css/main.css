@@ -1,26 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
-body {
-  background-color: #f2f2f2;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-}
+body
+{
+    font-family: 'Kaushan Script', cursive;
 
-h1 {
-  font-weight: 300;
-}
+    height: 100%;
+    margin: 0;
+    padding: 0;
 
-.btn {
-  font-weight: 300;
-}
-
-
-/* for mobile */
-@media query {
-
+    color: #1a1a1a;
+    background-color: #f2f2f2;
 }
 
 
-/* for desktop and tablets */
-@media query {
+.btn
+{
+    font-size: 1.2em;
 
+    padding: 8px 20px;
+    font-family: 'Kaushan Script', cursive;
+    color: #1a1a1a;
+    border: solid 2.5px #f55;
+    background: none;
+}
+
+.btn:hover
+{
+    color: #f2f2f2;
+    background-color: #f55;
+}
+
+.header-box p
+{
+    text-align: center;
+}
+
+.parent-box
+{
+    display: flex;
+
+    height: 100%;
+}
+
+.header-box
+{
+    width: 500px;
+    height: 100%;
+
+    color: #f2f2f2;
+    background-color: #1a1a1a;
+}
+
+.header-box h1
+{
+    font-weight: normal;
+    font-size: 1.8em;
+
+    text-align: center;
+}
+.header-box img
+{
+    width: 100%;
+    max-height: 500px;
+}
+
+.content-box
+{
+    display: flex;
+
+    width: 100%;
+    height: 600px;
+}
+
+.quote-box
+{
+    display: flex;
+
+    max-width: 500px;
+    margin: auto;
+    padding: 40px;
+
+    flex-flow: column;
+}
+
+#quote
+{
+    font-size: 1.4em;
+}
+
+
+#author
+{
+    font-weight: bold;
+}
+
+.btn-group
+{
+    display: flex;
+
+    margin-top: 70px;
+}
+
+#generate
+{
+    margin-right: auto;
+}
+
+#tweet:hover
+{
+    border-color: #1baeed;
+    background-color: #1baeed;
 }

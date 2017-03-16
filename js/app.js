@@ -18,8 +18,8 @@ $("document").ready(function() {
     $.getJSON("https://cors-anywhere.herokuapp.com/http://quotes.stormconsultancy.co.uk/random.json",
       function(json) {
         // change quote and author to new quote from api
-        quote.text(json.quote);
-        author.text(json.author);
+        quote.text(json.quote).hide().fadeIn(1300, "swing");
+        author.text("-" + json.author).hide().fadeIn(900, "swing");
 
         // replace pretweet url with new url
         var tweetLink = "https://twitter.com/intent/tweet?text="
